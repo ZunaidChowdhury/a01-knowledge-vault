@@ -2,6 +2,13 @@
 This is an assignment project of MERN stack course in programming hero batch 13.
 
 
-<p align="center">
-  <img src="/ph-a01.png" width="400" alt="Completed project image">
-</p>
+
+<a
+  href="https://zunaidchowdhury.github.io/a01-knowledge-vault/"
+  target="_blank"
+  rel="noopener noreferrer"
+  >Live project</a
+>
+<div align="center">
+  <img src="/ph-a01.png" width="100%" alt="Completed project image" />
+</div>
