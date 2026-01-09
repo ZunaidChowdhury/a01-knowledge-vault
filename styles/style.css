@@ -6,7 +6,7 @@
 }
 
 body {
-    background: white;
+    background: #fbfbfb;
     /* font-family: "Inter", sans-serif; */
 }
 
@@ -14,16 +14,46 @@ body {
 
 /* SHARED/REUSABLE STYLES */
 
-.wrapper {}
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 
-.container {}
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
 
+.section-heading {
+    /* background-color: red; */
+    padding-top: 60px;
+    margin-bottom: 44px;
+}
+
+.section-heading h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 25, 49, 1);
+    margin-bottom: 16px;
+}
+
+.section-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    /* text-transform: capitalize; */
+    color: rgba(98, 115, 130, 1);
+    margin-bottom: 16px;
+}
 
 /* NAVBAR STYLES */
 .navbar-parent {
     width: 100%;
     height: 92px;
     padding: 16px 0px;
+    background: white;
 }
 
 nav {
@@ -147,7 +177,68 @@ nav {
 }
 
 /* Hero Buttons Container  */
-.hero-container div:nth-child(4){
+.hero-container div:nth-child(4) {
     display: flex;
     gap: 16px;
+}
+
+
+/* STYLES FOR NOTES SECTION  */
+.notes-section-parent {
+    /* width: 1600px; */
+    height: 448px;
+    overflow: hidden;
+    background-color: #fbfbfb;
+}
+
+.notes-section-parent .cards-parent {
+    /* background: red; */
+    display: flex;
+    gap: 24px;;
+
+}
+
+/* card  */
+.notes-section-parent .cards-parent .card {
+    background-color: white;
+    padding: 24px;
+    /* background: green; */
+    width: 322px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+/* card content > image  */
+.card div:nth-child(1) {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(0, 25, 49, 1);
+    margin-bottom: 16px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(98, 115, 130, 1);
+    text-align: center;
 }
