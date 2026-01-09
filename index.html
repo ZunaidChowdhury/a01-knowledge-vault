@@ -28,11 +28,13 @@
     <!-- HEADER SECTION  -->
     <header>
       <!-- NAVBAR  -->
-      <div class="navbar-parent">
+      <div class="navbar-parent wrapper">
         <nav>
           <!-- LOGO -->
           <div class="header-logo">
-            <img src="./assets/logo-navbar.png" alt="Knowledge vault logo" />
+            <a href="/index.html" target="_self">
+              <img src="./assets/logo-navbar.png" alt="Knowledge vault logo" />
+            </a>
           </div>
           <!-- MENU  -->
           <div>
@@ -53,7 +55,51 @@
       <section class="hero-parent">
         <div class="hero-container">
           <!-- Early Access -->
-          <div>Early Access Now Open</div>
+          <div style="display: flex">
+            <svg
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="16.000000"
+              height="16.000000"
+              fill="none"
+              customFrame="#000000"
+            >
+              <g id="Group 5">
+                <rect
+                  id="Rectangle 2"
+                  width="16.000000"
+                  height="16.000000"
+                  x="0.000000"
+                  y="0.000000"
+                  rx="8.000000"
+                  opacity="0.200000003"
+                  fill="rgb(70,145,101)"
+                />
+                <rect
+                  id="Rectangle 3"
+                  width="12.000000"
+                  height="12.000000"
+                  x="2.000000"
+                  y="2.000000"
+                  rx="6.000000"
+                  opacity="0.400000006"
+                  fill="rgb(70,145,101)"
+                />
+                <rect
+                  id="Rectangle 4"
+                  width="6.000000"
+                  height="6.000000"
+                  x="5.000000"
+                  y="5.000000"
+                  rx="3.000000"
+                  fill="rgb(70,145,101)"
+                />
+              </g>
+            </svg>
+
+            Early Access Now Open
+          </div>
           <!-- Heading  -->
           <div>
             <h1>Structured Thinking, <span>Not Just Note-Taking.</span></h1>
@@ -69,8 +115,17 @@
           </div>
           <!-- Buttons  -->
           <div>
-            <button class="button">Start Building Your Vault</button>
-            <button class="button-transparent">See How It Works</button>
+            <button class="button">
+              Start Building Your Vault
+              <i
+                class="fa-solid fa-arrow-right"
+                style="padding-left: 0.25rem"
+              ></i>
+            </button>
+            <button class="button-transparent">
+              <i class="fa-solid fa-play" style="padding-right: 1.75rem"></i>See
+              How It Works
+            </button>
           </div>
         </div>
       </section>
@@ -173,22 +228,32 @@
 
       <!-- early access section -->
       <section class="early-access-section wrapper">
-        <div class="container">
+        <div class="container early-access-container">
           <div class="section-heading">
             <h2>Ready to think more clearly?</h2>
             <p>
               Join thousands of learners who are building their personal
-              knowledge vaults. Start free, no credit card required.
+              knowledge vaults.<br />Start free, no credit card required.
             </p>
           </div>
           <div class="early-access-section-content">
-            <button class="button">Get Early Access</button>
-            <p>Free during early access • No credit card needed</p>
+            <button class="button">
+              Get Early Access
+              <i class="fa-solid fa-arrow-right" style="padding-left: 4px"></i>
+            </button>
+            <!-- <p>Free during early access • No credit card needed</p> -->
+            <div>
+              <p>Free during early access</p>
+              <ul>
+                <li>No credit card needed</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
+    <!-- FOOTER  -->
     <footer class="footer-section wrapper">
       <div class="container">
         <div class="footer-content-row-1">
@@ -206,7 +271,7 @@
           </div>
         </div>
         <div class="footer-content-row-2">
-          <p> &copy; 2026 Personal Knowledge Vault. All rights reserved.</p>
+          <p>&copy; 2026 Personal Knowledge Vault. All rights reserved.</p>
         </div>
       </div>
     </footer>
