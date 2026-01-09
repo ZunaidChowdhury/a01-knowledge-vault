@@ -194,7 +194,8 @@ nav {
 .notes-section-parent .cards-parent {
     /* background: red; */
     display: flex;
-    gap: 24px;;
+    gap: 24px;
+    ;
 
 }
 
@@ -238,7 +239,82 @@ nav {
 .card p {
     font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
+    /* line-height: 20px; */
     color: rgba(98, 115, 130, 1);
     text-align: center;
+}
+
+
+/* Brain Section  */
+.brain-section {
+    background-color: white;
+    padding: 120px;
+
+}
+
+.brain-section-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    /*justify-content: center; */
+}
+
+.brain-section-image {
+    width: 600px;
+    height: 600px;
+}
+
+.brain-section-text-content h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(70, 145, 101, 1);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.brain-section-text-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgba(0, 25, 49, 1);
+    margin-bottom: 16px;
+}
+
+.brain-section-text-content > p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+    /* color: red; */
+    margin-bottom: 40px;
+}
+
+
+.check-list-container {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+/* icon container  */
+.check-list-container > div {
+    width: 18px;
+    height: 18px;
+    /* padding: 2px; */
+    background-color: rgba(48, 184, 104, 1);
+    border-radius: 50%;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-list-container > div > i {
+    font-size: 8px;
+}
+
+.check-list-container > p {
+    color: rgba(0, 25, 49, 1);
+    font-size: 16px;
+font-weight: 500;
 }
