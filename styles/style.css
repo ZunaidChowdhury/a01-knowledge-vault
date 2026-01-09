@@ -26,7 +26,6 @@ body {
 
 .section-heading {
     /* background-color: red; */
-    padding-top: 60px;
     margin-bottom: 44px;
 }
 
@@ -190,6 +189,9 @@ nav {
     overflow: hidden;
     background-color: #fbfbfb;
 }
+.notes-section-parent > div > div{
+    padding-top: 60px;
+}
 
 .notes-section-parent .cards-parent {
     /* background: red; */
@@ -317,4 +319,32 @@ nav {
     color: rgba(0, 25, 49, 1);
     font-size: 16px;
 font-weight: 500;
+}
+
+
+/* early-access-section */
+.early-access-section {
+    margin-bottom: 120px;
+}
+
+.early-access-section > div {
+    background-color: #f7f6f2;
+    padding: 80px 0px;
+}
+
+.early-access-section .section-heading h2 {
+    font-size: 40px;
+    /* line-height: 44px; */
+}
+
+.early-access-section .section-heading {
+    margin-bottom: 24px;
+}
+
+.early-access-section-content {
+    text-align: center;
+}
+
+.early-access-section-content > button {
+    margin-bottom: 16px;
 }
