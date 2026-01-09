@@ -189,7 +189,8 @@ nav {
     overflow: hidden;
     background-color: #fbfbfb;
 }
-.notes-section-parent > div > div{
+
+.notes-section-parent>div>div {
     padding-top: 60px;
 }
 
@@ -282,7 +283,7 @@ nav {
     margin-bottom: 16px;
 }
 
-.brain-section-text-content > p {
+.brain-section-text-content>p {
     font-size: 16px;
     font-weight: 400;
     color: rgba(98, 115, 130, 1);
@@ -298,7 +299,7 @@ nav {
 }
 
 /* icon container  */
-.check-list-container > div {
+.check-list-container>div {
     width: 18px;
     height: 18px;
     /* padding: 2px; */
@@ -311,14 +312,14 @@ nav {
     align-items: center;
 }
 
-.check-list-container > div > i {
+.check-list-container>div>i {
     font-size: 8px;
 }
 
-.check-list-container > p {
+.check-list-container>p {
     color: rgba(0, 25, 49, 1);
     font-size: 16px;
-font-weight: 500;
+    font-weight: 500;
 }
 
 
@@ -327,7 +328,7 @@ font-weight: 500;
     margin-bottom: 120px;
 }
 
-.early-access-section > div {
+.early-access-section>div {
     background-color: #f7f6f2;
     padding: 80px 0px;
 }
@@ -345,6 +346,61 @@ font-weight: 500;
     text-align: center;
 }
 
-.early-access-section-content > button {
+.early-access-section-content>button {
     margin-bottom: 16px;
+}
+
+/* footer section  */
+.footer-section {
+    background-color: rgba(0, 25, 49, 1);
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-content-row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footer-content-row-1 div:nth-child(2) h6 {
+    /* background-color: red; */
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.footer-content-row-1 div:nth-child(2) div {
+    display: flex;
+    gap: 16px;
+}
+
+
+.footer-content-row-1 div:nth-child(2) a {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.footer-content-row-1 div:nth-child(2) i {
+    color: black;
+    font-size: 12px;
+    padding-left: 4px;
+    /* max-width: 10px;
+    max-height: 10px; */
+}
+
+.footer-content-row-1>div:nth-child(2)>div>a:nth-child(2)>i {
+    padding-left: 5px;
+}
+
+.footer-content-row-2 > p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
