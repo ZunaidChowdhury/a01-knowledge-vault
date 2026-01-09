@@ -491,3 +491,8 @@ nav {
 
 
 
+/* github bug fixing */
+
+.hero-early-access {
+    display: flex;
+}
